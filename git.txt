@@ -1,0 +1,25 @@
+git commit -m "Created index.html"
+
+// menambah remote
+git remote add origin https://prog-8.com/mysite.git
+
+// mengunggah file ke remote
+git push origin master
+
+// mengunduh file dari remote
+git pull origin master
+
+// mengenali file-file yang dimodifikasi
+git status
+
+// mengenali perubahan-perubahan konten
+git diff
+
+// mengecek file yang ditambahkan
+git status
+
+//melihat commit-commit
+git log
+
+// melihat perubahan
+git log -p
